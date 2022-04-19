@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/c/Users/ealva/workspace/dotnet/apiweb/core/OnlineShop/OnlineShop.csproj": {}
+  },
+  "projects": {
+    "/mnt/c/Users/ealva/workspace/dotnet/apiweb/core/OnlineShop/OnlineShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/Users/ealva/workspace/dotnet/apiweb/core/OnlineShop/OnlineShop.csproj",
+        "projectName": "OnlineShop",
+        "projectPath": "/mnt/c/Users/ealva/workspace/dotnet/apiweb/core/OnlineShop/OnlineShop.csproj",
+        "packagesPath": "/home/ealvarez/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/ealva/workspace/dotnet/apiweb/core/OnlineShop/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ealvarez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
