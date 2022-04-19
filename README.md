@@ -1,6 +1,6 @@
 # Online Shop
 
-Esta es una aplicación en .Net Core 6, utiliza Mongo DB.
+Esta es una aplicación en .Net Core 6 API Rest, utiliza Mongo DB.
 
 #### Características:
 - .Net Core 6
